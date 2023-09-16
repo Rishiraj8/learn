@@ -18,12 +18,8 @@ class Array{
                 A[i]=10;
             }
         }
-        void display(){
-            cout<<"The array elements are";
-            for(int i=0;i<length;i++){
-                cout<<A[i]<< " ";
-        }
-}
+        
+
         ~Array(){
             delete[] A;
             cout<<"The array is destroyed"<<endl;
