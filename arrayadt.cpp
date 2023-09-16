@@ -4,7 +4,7 @@ using namespace std;
 class Array{
     private:
     int *A;
-    //asdfasdfasdfasdf
+    //asdfasdfasdfasdf 
     int size;
     int length;
     public:
@@ -13,6 +13,7 @@ class Array{
             A= new int[size];
 
         }
+        //asdf asdf 
         void create(){
             length=5;
             for(int i=0;i<length;i++){
